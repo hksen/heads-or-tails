@@ -36,7 +36,7 @@ body {
     transform: rotateX(180deg);
 }
 
-@keyframes spin-tails {
+@keyframes rotate-tails {
     0%{
         transform:rotateX(0); 
     }
@@ -46,7 +46,7 @@ body {
     }
 }
 
-@keyframes spin-heads {
+@keyframes rotate-heads {
     0%{
         transform:rotateX(0); 
     }

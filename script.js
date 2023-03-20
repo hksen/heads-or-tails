@@ -15,10 +15,9 @@ flipBtn.addEventListener("click", ()=> {
   heads = 0;
   tails = 0;
 
-
   const i = Math.floor(Math.random() * 2);
 
-  coin.style.animation = i ? 'spin-heads 3s forwards' : 'spin-tails 3s forwards';
+  coin.style.animation = i ? 'rotate-heads 3s forwards' : 'rotate-tails 3s forwards';
 
   i ? heads++ : tails++;
 
